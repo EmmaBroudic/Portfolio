@@ -5,7 +5,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 30px;
-      background-color: #2D1165;
+      background-color: #495f77;
       /*
       background-color: #1C0846;*/
       margin-bottom: 30px;
@@ -13,6 +13,8 @@
 
     .nom {
         color: white;
+        font-family: Argesta;
+        font-size: 16pt;
     }
   
     nav {
@@ -20,26 +22,25 @@
       flex-direction: row;
       justify-content: right;
       align-items: right;
-      padding-top: 30px;
     }
   
     .menu-left, .menu-right {
-      font-family: Montserrat;
-      font-size: 16pt;
-      color: white;
-      text-decoration: none;
-      padding-left: 30px;
+        font-family: Argesta;
+        font-size: 12pt;
+        color: white;
+        text-decoration: none;
+        padding-left: 30px;
     }
     
     .menu-left:hover, .menu-right:hover {
-      font-family: Montserrat;
-      font-size: 16pt;
-      color: white;
-      text-decoration: underline;
+        font-family: Argesta;
+        font-size: 12pt;
+        color: white;
+        text-decoration: underline;
     }
   
     .menu-left.active, .menu-right.active {
-      text-decoration: underline;
+        text-decoration: underline;
     }
   }
 

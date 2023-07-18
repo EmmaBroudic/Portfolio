@@ -1,4 +1,79 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
+  .infos-bloc {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: 80%;
+  }
+
+  .infos-titre {
+      width: 80%;
+      position: static;
+      font-family: MontserratLight;
+      color: white;
+      font-size: 14pt;
+  }
+
+  .infos-text {
+      width: 80%;
+      position: relative;
+      font-family: MontserratLight;
+      font-size: 14pt;
+      color: #495f77;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .infos-bloc {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 85%; 
+  }
+
+  .infos-titre {
+      width: 85%;
+      position: static;
+      font-family: MontserratLight;
+      color: white;
+      font-size: 14pt;
+  }
+
+  .infos-text {
+      width: 85%;
+      position: relative;
+      font-family: MontserratLight;
+      font-size: 14pt;
+      color: #495f77;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .infos-bloc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 82%; 
+  }
+
+  .infos-titre {
+      width: 85%;
+      position: static;
+      font-family: MontserratLight;
+      color: white;
+      font-size: 14pt;
+  }
+
+  .infos-text {
+      width: 85%;
+      position: relative;
+      font-family: MontserratLight;
+      font-size: 14pt;
+      color: #495f77;
+  }
+}
+/*@media screen and (min-width: 768px) {
     .skills {
         display: flex;
         flex-direction: row;
@@ -20,4 +95,4 @@
       height: auto;
       margin-bottom: 30px;
     }
-  }
+  }*/

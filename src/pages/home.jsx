@@ -11,13 +11,21 @@ function Home() {
   return (
     <div className="app">
       <ImageTop />
-      <h2>Présentation</h2>
+      <div className = "titre-section">
+        <h2>PRÉSENTATION</h2>
+      </div>
       <Presentation />
-      <h2>Travaux récents</h2>
+      <div className = "titre-section">
+        <h2>TRAVAUX RÉCENTS</h2>
+      </div>
       <Works />
-      <h2>Compétences</h2>
+      <div className = "titre-section">
+        <h2>COMPÉTENCES</h2>
+      </div>
       <Skills />
-      <h2>Réseaux sociaux</h2>
+      <div className = "titre-section">
+        <h2>RÉSEAUX SOCIAUX</h2>
+      </div>
       <SocialNetwork />
       <p>Footer</p>
     </div>

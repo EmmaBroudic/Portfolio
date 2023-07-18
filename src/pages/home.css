@@ -4,9 +4,19 @@
     align-items: center;
   }
 
+.titre-section {
+    width: 95%;
+    border-top: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 h2 {
     all: unset;
-    color: #2D1165;
-    text-align: center;
+    color: #495f77;
+    font-family: Argesta;
     font-size: 24pt;
+    padding: 20px;
 }
