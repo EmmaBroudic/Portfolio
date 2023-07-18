@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+    .works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F6;
+        border-radius: 20px 20px 20px 20px;
+        width: 95%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .works-img {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .work-one, .work-two {
+        width: 200px;
+        height: 120px;
+        object-fit: cover;
+        margin: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .works {
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        width: 95%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+  }
