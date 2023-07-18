@@ -1,9 +1,6 @@
 import linkedin from '../../images/logo-linkedin.png';
 import './social-network.css';
 
-/* Ce bloc de code correspond à l'image affichée
-au-dessous du header sur la page home.*/
-
 function Socialnetwork() {
     return (
         <div className = "social">

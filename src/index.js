@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route /*, Navigate, useParams*/ } from 'react-router-dom';
 import './index.css';
 import Home from './pages/home';
+import Contact from './pages/contact';
+import Header from './components/Header/header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <Header />
       <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   </React.StrictMode>

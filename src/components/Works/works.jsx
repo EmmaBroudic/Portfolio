@@ -2,9 +2,6 @@ import work1 from '../../images/img1.jpg';
 import work2 from '../../images/img2.jpg';
 import './works.css';
 
-/* Ce bloc de code correspond à l'image affichée
-au-dessous du header sur la page home.*/
-
 function Works() {
     return (
         <div className = "works">

@@ -1,8 +1,5 @@
 import './skills.css';
 
-/* Ce bloc de code correspond à l'image affichée
-au-dessous du header sur la page home.*/
-
 function Skills() {
     return (
         <div className = "skills">
