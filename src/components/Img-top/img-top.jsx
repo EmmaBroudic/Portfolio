@@ -8,7 +8,7 @@ function Imagetop() {
     return (
         <div className = "image-top">
             <img src = {img} className = "img-top" alt = "img" />
-            <h1 className = "text-img-top">Développement web</h1>
+            <h1 className = "text-img-top">Portfolio</h1>
         </div>
     )
 }

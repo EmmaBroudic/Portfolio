@@ -5,6 +5,7 @@ import './index.css';
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Header from './components/Header/header';
+import Footer from './components/Footer/footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );

@@ -1,8 +1,9 @@
 @media screen and (min-width: 992px) {
   .infos-bloc {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 80%; 
   }
 
   .infos-titre {
@@ -26,7 +27,7 @@
 
   .infos-bloc {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       width: 85%; 
   }

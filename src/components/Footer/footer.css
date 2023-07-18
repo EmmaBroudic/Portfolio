@@ -1,0 +1,12 @@
+.footer {
+    background-color: #495f77;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 12pt;
+    color: white;
+}

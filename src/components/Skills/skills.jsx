@@ -1,19 +1,19 @@
 import React from 'react'; /* nécessaire ? */
 import ReusableCollapse from '../Reu-collapse/reu-collapse.jsx';
-import { competences } from '../../data/competences';
+import { competences } from '../../data/competences.jsx';
 import './skills.css';
 
 function Skills() {
 
-    const infoSkills = competences.map((competence) => ({
+    const infoCompetences = competences.map((competence) => ({
         id: competence.id,
         titre: <h2 className = "infos-titre">{competence.title}</h2>,
         descriptif: <p className = "infos-text">{competence.text}</p>,
       }));
-
+    
     return (
         <div className = "infos-bloc">
-            <ReusableCollapse data = { infoSkills } />
+            <ReusableCollapse data = { infoCompetences } />
         </div>
     )
 }
