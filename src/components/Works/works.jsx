@@ -6,8 +6,12 @@ function Works() {
     return (
         <div className = "works">
             <div className = "works-bloc">
-                <img src = {work1} className = "work-one" alt = "site web 1" />
-                <h3>Débuggez et optimisez un site de photographe</h3>
+                <a href="https://emmabroudic.github.io/Projet5/">
+                    <img src = {work1} className = "work-one" alt = "site web 1" />
+                </a>
+                <a href="https://emmabroudic.github.io/Projet5/">
+                    <h3>Débuggez et optimisez un site de photographe</h3>
+                </a>
                 <p className = "technos">HTML, CSS, Javascript, Jquery, utilisation d'outils d'optimisation (waves, etc.)</p>
             </div>
             <div className = "works-bloc">
