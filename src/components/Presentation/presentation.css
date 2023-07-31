@@ -10,26 +10,25 @@
     .image {
       display: flex;
       align-items: left;
-      background-color: white;
       height: 100%;
     }
 
     .portrait {
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
         object-fit: cover;
         border-radius: 10px;
-        margin: 20px;
-        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+        margin: 30px;
+        /*box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);*/
     }
 
     .text {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      padding: 30px;
-      background-color: #F6F6F6;
-      border-radius: 20px;
-      box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      /*background-color: #F6F6F6;*/
+      /*border-radius: 20px;*/
+      /*box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);*/
     }
 
     .pres-text {

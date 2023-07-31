@@ -18,21 +18,27 @@ function Home() {
   return (
     <div className="app">
       <ImageTop />
-      <div className = "titre-section">
-        <h2 className = "titres">Présentation</h2>
-        <p className = "icones"><FontAwesomeIcon className = "pad" icon={faPencil} /></p>
+      <div className = "bloc">
+        <div className = "titre-section">
+          <h2 className = "titres">Présentation</h2>
+          <p className = "icones"><FontAwesomeIcon className = "pad" icon={faPencil} /></p>
+        </div>
+        <Presentation />
       </div>
-      <Presentation />
-      <div className = "titre-section">
-        <h2 className = "titres">Travaux récents</h2>
-        <p className = "icones"><FontAwesomeIcon className = "pad" icon={faComputer} /></p>
+      <div className = "bloc">
+        <div className = "titre-section">
+          <h2 className = "titres">Travaux récents</h2>
+          <p className = "icones"><FontAwesomeIcon className = "pad" icon={faComputer} /></p>
+        </div>
+        <Works />
       </div>
-      <Works />
-      <div className = "titre-section">
-        <h2 className = "titres">Compétences</h2>
-        <p className = "icones"><FontAwesomeIcon className = "pad" icon={faKitchenSet} /></p>
+      <div className = "bloc">
+        <div className = "titre-section">
+          <h2 className = "titres">Compétences</h2>
+          <p className = "icones"><FontAwesomeIcon className = "pad" icon={faKitchenSet} /></p>
+        </div>
+        <Skills />
       </div>
-      <Skills />
     </div>
   );
 }

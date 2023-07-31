@@ -14,7 +14,7 @@ export const competences = [
     {
         "id": "3",
         "title": "Design",
-        "text": "Maîtrise de PhotoShop, InDesign, GIMP, Figma",
+        "text": "PhotoShop, InDesign, GIMP, Figma",
         visible: false
     },
     {
