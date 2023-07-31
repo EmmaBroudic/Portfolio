@@ -2,35 +2,36 @@
     font-family: Montserrat;
 }
 
-@media screen and (min-width: 768px) {
+.works-bloc {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.titre-work {
+    font-size: 12pt;
+    color: #2c2e4b;
+    padding: 4px;
+}
+
+
+  
+@media screen and (min-width: 992px) {
     .works {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        border-radius: 20px 20px 20px 20px;
         width: 95%;
         height: auto;
         margin-bottom: 30px;
     }
 
-    .works-bloc {
-        display: flex;
-        flex-direction: column;
-        margin: 30px;
-    }
-    
     .work-one, .work-two {
-        width: 470px;
+        width: 400px;
         height: 250px;
         object-fit: cover;
         border-radius: 10px;
-    }
-
-    .titre-work {
-        font-size: 12pt;
-        color: #2c2e4b;
-        padding: 4px;
     }
 
     .technos {
@@ -39,9 +40,62 @@
         height: auto;
         padding: 4px;
     }
-  }
-  
-  @media screen and (max-width: 767px) {
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .works {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 95%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .work-one, .work-two {
+        width: 280px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .technos {
+        font-size: 10pt;
+        width: 300px;
+        height: auto;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        height: auto;
+        margin: 30px;
+    }
+
+    .work-one, .work-two {
+        width: 95%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .technos {
+        font-size: 10pt;
+        width: 95%;
+        height: auto;
+        padding: 4px;
+    }
+}
+
+
+  /*@media screen and (max-width: 767px) {
     .works {
         background-color: white;
         border-radius: 20px 20px 20px 20px;
@@ -49,4 +103,4 @@
         height: auto;
         margin-bottom: 30px;
     }
-  }
+  }*/
