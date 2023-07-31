@@ -1,0 +1,15 @@
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e3ef;
+    border-radius: 20px;
+    width: 95%;
+    margin: 30px;
+}
+
+.email {
+    font-family: Montserrat;
+    font-size: 10pt;
+    padding: 30px;
+}

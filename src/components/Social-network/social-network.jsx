@@ -5,7 +5,7 @@ function Socialnetwork() {
     return (
         <div className = "social">
             <a href="https://www.linkedin.com/in/emma-broudic-347304129/"><img src = {linkedin} className = "linkedin" alt = "logo linkedin" /></a>
-            <p>Vous pouvez me retrouver sur <a href="https://www.linkedin.com/in/emma-broudic-347304129/">LinkedIn</a></p>
+            <p className = "rs">Vous pouvez me retrouver sur <a href="https://www.linkedin.com/in/emma-broudic-347304129/">LinkedIn</a></p>
             
         </div>
     )
