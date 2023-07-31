@@ -35,17 +35,17 @@
   .infos-titre {
       width: 85%;
       position: static;
-      font-family: MontserratLight;
+      font-family: Montserrat;
       color: white;
-      font-size: 14pt;
+      font-size: 12pt;
   }
 
   .infos-text {
       width: 85%;
       position: relative;
-      font-family: MontserratLight;
-      font-size: 14pt;
-      color: #72404a;
+      font-family: Montserrat;
+      font-size: 12pt;
+      color: #2c2e4b;
   }
 }
 
@@ -61,17 +61,17 @@
   .infos-titre {
       width: 85%;
       position: static;
-      font-family: MontserratLight;
+      font-family: Montserrat;
       color: white;
-      font-size: 14pt;
+      font-size: 12pt;
   }
 
   .infos-text {
       width: 85%;
       position: relative;
-      font-family: MontserratLight;
-      font-size: 14pt;
-      color: #72404a;
+      font-family: Montserrat;
+      font-size: 12pt;
+      color: #2c2e4b;
   }
 }
 /*@media screen and (min-width: 768px) {
