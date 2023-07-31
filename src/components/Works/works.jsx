@@ -12,7 +12,7 @@ function Works() {
                 <a href="https://emmabroudic.github.io/Projet5/">
                     <h3 className = "titre-work">Débuggez et optimisez un site de photographe</h3>
                 </a>
-                <p className = "technos">Description du travail effectué :</p>
+                <p className = "technos">Corriger le code, le refactoriser et ajouter les éléments nécessaires pour que celui-ci apparaisse dans les premiers résultats sur les moteurs de recherche.</p>
                 <p className = "technos">Technologies abordées : HTML, CSS, Javascript, Jquery, utilisation d'outils d'optimisation (waves, etc.)</p>
             </div>
             <div className = "works-bloc">
@@ -22,7 +22,7 @@ function Works() {
                 <a href="https://github.com/EmmaBroudic/projet7">
                     <h3 className = "titre-work">Développez le back-end d'un site de notation de livres</h3>
                 </a>
-                <p className = "technos">Description du travail effectué :</p>
+                <p className = "technos">Construire la partie back-end d'une application dynamique en JavaSCript à l'aide de l'environnement de travail Node JS et d'une base de données NoSQL.</p>
                 <p className = "technos">Technologies abordées : NodeJS, Express, MongoDB, Multer, Sharp, Bcrypt</p>
             </div>
         </div>
