@@ -6,7 +6,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPencil, faComputer, faKitchenSet} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './home.css';
-/*import './App.css';*/
 
 function Home() {
 
@@ -20,18 +19,18 @@ function Home() {
     <div className="app">
       <ImageTop />
       <div className = "titre-section">
-        <h2>PRÉSENTATION</h2>
-        <p><FontAwesomeIcon className = "pad" icon={faPencil} /></p>
+        <h2 className = "titres">Présentation</h2>
+        <p className = "icones"><FontAwesomeIcon className = "pad" icon={faPencil} /></p>
       </div>
       <Presentation />
       <div className = "titre-section">
-        <h2>TRAVAUX RÉCENTS</h2>
-        <p><FontAwesomeIcon className = "pad" icon={faComputer} /></p>
+        <h2 className = "titres">Travaux récents</h2>
+        <p className = "icones"><FontAwesomeIcon className = "pad" icon={faComputer} /></p>
       </div>
       <Works />
       <div className = "titre-section">
-        <h2>COMPÉTENCES</h2>
-        <p><FontAwesomeIcon className = "pad" icon={faKitchenSet} /></p>
+        <h2 className = "titres">Compétences</h2>
+        <p className = "icones"><FontAwesomeIcon className = "pad" icon={faKitchenSet} /></p>
       </div>
       <Skills />
     </div>

@@ -9,17 +9,17 @@
   .infos-titre {
       width: 80%;
       position: static;
-      font-family: MontserratLight;
+      font-family: Montserrat;
       color: white;
-      font-size: 14pt;
+      font-size: 12pt;
   }
 
   .infos-text {
       width: 80%;
       position: relative;
-      font-family: MontserratLight;
-      font-size: 14pt;
-      color: #8c52ff;
+      font-family: Montserrat;
+      font-size: 12pt;
+      color: #72404a;
   }
 }
 
@@ -45,7 +45,7 @@
       position: relative;
       font-family: MontserratLight;
       font-size: 14pt;
-      color: #004aad;
+      color: #72404a;
   }
 }
 
@@ -71,7 +71,7 @@
       position: relative;
       font-family: MontserratLight;
       font-size: 14pt;
-      color: #004aad;
+      color: #72404a;
   }
 }
 /*@media screen and (min-width: 768px) {

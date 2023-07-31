@@ -1,4 +1,4 @@
-h3, p {
+.titre-work, .technos {
     font-family: Montserrat;
 }
 
@@ -30,13 +30,13 @@ h3, p {
         box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
     }
 
-    h3 {
+    .titre-work {
         font-size: 12pt;
-        color: #cb6ce6;
+        color: #72404a;
         padding: 4px;
     }
 
-    p {
+    .technos {
         font-size: 10pt;
         width: 400px;
         height: auto;

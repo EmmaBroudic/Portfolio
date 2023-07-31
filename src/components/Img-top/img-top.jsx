@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import img1 from '../../images/img-top.jpg';
 import img2 from '../../images/img-top2.jpg';
 import img3 from '../../images/img-top3.jpg';
+import img4 from '../../images/img-top4.jpg';
 import './img-top.css';
 
 function Imagetop() {
   const [currentImage, setCurrentImage] = useState(1);
 
   const handleNext = () => {
-    setCurrentImage((prevImage) => (prevImage === 3 ? 1 : prevImage + 1));
+    setCurrentImage((prevImage) => (prevImage === 4 ? 1 : prevImage + 1));
   };
 
   // Utilisez useEffect pour définir l'intervalle de changement d'image
@@ -29,6 +30,8 @@ function Imagetop() {
         return img2;
       case 3:
         return img3;
+      case 4:
+        return img4;
       default:
         return img1;
     }

@@ -10,16 +10,20 @@ function Works() {
                     <img src = {work1} className = "work-one" alt = "site web 1" />
                 </a>
                 <a href="https://emmabroudic.github.io/Projet5/">
-                    <h3>Débuggez et optimisez un site de photographe</h3>
+                    <h3 className = "titre-work">Débuggez et optimisez un site de photographe</h3>
                 </a>
                 <p className = "technos">Description du travail effectué :</p>
                 <p className = "technos">Technologies abordées : HTML, CSS, Javascript, Jquery, utilisation d'outils d'optimisation (waves, etc.)</p>
             </div>
             <div className = "works-bloc">
-                <img src = {work2} className = "work-two" alt = "site web 2" />
-                <h3>Développez le back-end d'un site de notation de livres</h3>
-                <p className = "technos">NodeJS, Express, MongoDB, Multer, Sharp, Bcrypt</p>
-                <p className = "technos">NodeJS, Express, MongoDB, Multer, Sharp, Bcrypt</p>
+                <a href="https://github.com/EmmaBroudic/projet7">
+                    <img src = {work2} className = "work-two" alt = "site web 2" />
+                </a>
+                <a href="https://github.com/EmmaBroudic/projet7">
+                    <h3 className = "titre-work">Développez le back-end d'un site de notation de livres</h3>
+                </a>
+                <p className = "technos">Description du travail effectué :</p>
+                <p className = "technos">Technologies abordées : NodeJS, Express, MongoDB, Multer, Sharp, Bcrypt</p>
             </div>
         </div>
     )
