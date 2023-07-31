@@ -5,7 +5,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 30px;
-      background-color: #495f77;
+      background-color: #cb6ce6;
       /*
       background-color: #1C0846;*/
       margin-bottom: 30px;
@@ -13,8 +13,8 @@
 
     .nom {
         color: white;
-        font-family: Argesta;
-        font-size: 16pt;
+        font-family: Montserrat;
+        font-size: 14pt;
     }
   
     nav {
@@ -25,7 +25,7 @@
     }
   
     .menu-left, .menu-right {
-        font-family: Argesta;
+        font-family: Montserrat;
         font-size: 12pt;
         color: white;
         text-decoration: none;
@@ -33,7 +33,7 @@
     }
     
     .menu-left:hover, .menu-right:hover {
-        font-family: Argesta;
+        font-family: Montserrat;
         font-size: 12pt;
         color: white;
         text-decoration: underline;

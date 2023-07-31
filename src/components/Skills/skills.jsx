@@ -1,6 +1,7 @@
 import React from 'react'; /* nécessaire ? */
 import ReusableCollapse from '../Reu-collapse/reu-collapse.jsx';
 import { competences } from '../../data/competences.jsx';
+import nuage from '../../images/nuage-de-mots.png';
 import './skills.css';
 
 function Skills() {
@@ -14,6 +15,7 @@ function Skills() {
     return (
         <div className = "infos-bloc">
             <ReusableCollapse data = { infoCompetences } />
+            <img src = {nuage} className = "nuage" alt = "nuage de mots" />
         </div>
     )
 }

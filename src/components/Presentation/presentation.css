@@ -2,9 +2,6 @@
     .presentation {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        align-items: center;
-        background-color: #F6F6F6;
-        border-radius: 20px 20px 20px 20px;
         width: 95%;
         height: auto;
         margin-bottom: 30px;
@@ -12,31 +9,35 @@
 
     .image {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #c6daf3;
-      border-radius: 10px;
+      align-items: left;
+      background-color: white;
       height: 100%;
     }
 
     .portrait {
-        width: 180px;
-        height: 180px;
+        width: 250px;
+        height: 250px;
         object-fit: cover;
         border-radius: 10px;
         margin: 20px;
+        box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
     }
 
     .text {
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding: 30px;
+      background-color: #F6F6F6;
+      border-radius: 20px;
+      box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
     }
 
     .pres-text {
         font-family: Montserrat;
-        font-size: 11pt;
+        font-size: 10pt;
         margin: 30px;
+        width: 350px;
+        height: auto;
     }
   }
   
