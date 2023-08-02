@@ -4,9 +4,9 @@ import Mail from '../components/Mail/mail.jsx';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelopesBulk, faHandshake} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-/*import logo from './logo.svg';*/
 import './contact.css';
-/*import './App.css';*/
+
+/* Ce bloc de code réunit les différents éléments présents sur la page contact */
 
 function Home() {
 

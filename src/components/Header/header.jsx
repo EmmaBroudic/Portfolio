@@ -1,6 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import './header.css';
 
+/* Ce bloc de code correspond au header. Le header est visible
+sur la page contact et sur la page home. */
+
 function Header() {
     return (
         <div className="header">

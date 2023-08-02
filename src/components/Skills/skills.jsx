@@ -4,6 +4,11 @@ import { competences } from '../../data/competences.jsx';
 import nuage from '../../images/nuage-de-mots.png';
 import './skills.css';
 
+/* Ce bloc de code réunit les éléments de la
+partie "compétences" de la page home. Les éléments d'informations
+sont importées à l'aide du fichier competences.jsx et l'affichage et masquage des
+éléments est géré par le composant reucollapse. */
+
 function Skills() {
 
     const infoCompetences = competences.map((competence) => ({

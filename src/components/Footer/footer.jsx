@@ -1,5 +1,8 @@
 import './footer.css';
 
+/* Ce bloc de code correspond au footer. Le footer est visible
+sur la page home et sur la page contact. */
+
 function Footer() {
     return (
         <div className="footer">

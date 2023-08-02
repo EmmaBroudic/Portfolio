@@ -5,6 +5,9 @@ import img3 from '../../images/img-top3.jpg';
 import img4 from '../../images/img-top4.jpg';
 import './img-top.css';
 
+/* Ce bloc de code correspond au slider visible sur la page home et sur
+la page contact. */
+
 function Imagetop() {
   const [currentImage, setCurrentImage] = useState(1);
 

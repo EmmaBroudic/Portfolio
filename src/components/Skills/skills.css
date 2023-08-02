@@ -74,26 +74,3 @@
       color: #2c2e4b;
   }
 }
-/*@media screen and (min-width: 768px) {
-    .skills {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        background-color: #F6F6F6;
-        border-radius: 20px 20px 20px 20px;
-        width: 95%;
-        height: auto;
-        margin-bottom: 30px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .skills {
-      background-color: white;
-      border-radius: 20px 20px 20px 20px;
-      width: 95%;
-      height: auto;
-      margin-bottom: 30px;
-    }
-  }*/

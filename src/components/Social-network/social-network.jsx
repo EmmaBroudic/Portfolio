@@ -1,6 +1,10 @@
 import linkedin from '../../images/logo-linkedin.png';
 import './social-network.css';
 
+/* Ce bloc de code
+réunit les différents éléments de la
+partie "réseaux sociaux" de la page contact */
+
 function Socialnetwork() {
     return (
         <div className = "social">

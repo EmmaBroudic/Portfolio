@@ -1,6 +1,9 @@
 import portrait from '../../images/portrait.jpg';
 import './presentation.css';
 
+/* Ce bloc de code réunit les différents éléments affichés dans
+la partie "présentation" de la page home */
+
 function Presentation() {
     return (
         <div className = "presentation">

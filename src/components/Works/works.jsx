@@ -2,6 +2,9 @@ import work1 from '../../images/img1.jpg';
 import work2 from '../../images/img2.jpg';
 import './works.css';
 
+/* Ce bloc de code réunit les différents éléments présents
+dans la partie "travaux récents" de la page home */
+
 function Works() {
     return (
         <div className = "works">

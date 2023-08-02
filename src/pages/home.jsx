@@ -7,6 +7,8 @@ import { faPencil, faComputer, faKitchenSet} from '@fortawesome/free-solid-svg-i
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './home.css';
 
+/* Ce bloc de code réunit les différents éléments présents sur la page home */
+
 function Home() {
 
   library.add(faPencil);
