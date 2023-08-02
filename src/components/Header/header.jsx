@@ -6,8 +6,8 @@ function Header() {
         <div className="header">
             <p className="nom">Emma Broudic</p>
             <nav>
-                <NavLink className="menu-left" activeClassName="active" to="/">Home</NavLink>
-                <NavLink className="menu-right" activeClassName="active" to="/contact">Contact</NavLink>
+                <NavLink className="menu-left" activeclassname="active" to="/">Home</NavLink>
+                <NavLink className="menu-right" activeclassname="active" to="/contact">Contact</NavLink>
             </nav>
         </div>
     )
