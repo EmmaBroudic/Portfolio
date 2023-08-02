@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.469b1228.css",
-    "main.js": "./static/js/main.499f0204.js",
-    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
-    "static/media/portrait.jpg": "./static/media/portrait.ba62b479a064b46f3759.jpg",
-    "static/media/img-top.jpg": "./static/media/img-top.ac885c0ec3537350cb75.jpg",
-    "static/media/img-top4.jpg": "./static/media/img-top4.7a564500475586cb0936.jpg",
-    "static/media/img1.jpg": "./static/media/img1.984736abc41f85acd9af.jpg",
-    "static/media/img2.jpg": "./static/media/img2.22cde4a0f5ab6b63988f.jpg",
-    "static/media/nuage-de-mots.png": "./static/media/nuage-de-mots.88a2068438ea4aeb3924.png",
-    "static/media/img-top2.jpg": "./static/media/img-top2.6ccb79c61b1d0116b5e4.jpg",
-    "static/media/Montserrat-Medium.ttf": "./static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
-    "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.d0ca82d8ca07ba209aee.ttf",
-    "static/media/Montserrat-Light.ttf": "./static/media/Montserrat-Light.dfb04f69b77b88e22558.ttf",
-    "static/media/img-top3.jpg": "./static/media/img-top3.c3fe32df5950dba4bbd5.jpg",
-    "static/media/logo-linkedin.png": "./static/media/logo-linkedin.962132e68d7a3383b31c.png",
-    "index.html": "./index.html",
-    "main.469b1228.css.map": "./static/css/main.469b1228.css.map",
-    "main.499f0204.js.map": "./static/js/main.499f0204.js.map",
-    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.eb03f92f.css",
+    "main.js": "/Portfolio/static/js/main.03f34fd3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portrait.jpg": "/Portfolio/static/media/portrait.ba62b479a064b46f3759.jpg",
+    "static/media/img-top.jpg": "/Portfolio/static/media/img-top.ac885c0ec3537350cb75.jpg",
+    "static/media/img-top4.jpg": "/Portfolio/static/media/img-top4.7a564500475586cb0936.jpg",
+    "static/media/img1.jpg": "/Portfolio/static/media/img1.984736abc41f85acd9af.jpg",
+    "static/media/img2.jpg": "/Portfolio/static/media/img2.22cde4a0f5ab6b63988f.jpg",
+    "static/media/nuage-de-mots.png": "/Portfolio/static/media/nuage-de-mots.88a2068438ea4aeb3924.png",
+    "static/media/img-top2.jpg": "/Portfolio/static/media/img-top2.6ccb79c61b1d0116b5e4.jpg",
+    "static/media/Montserrat-Medium.ttf": "/Portfolio/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
+    "static/media/Montserrat-Bold.ttf": "/Portfolio/static/media/Montserrat-Bold.d0ca82d8ca07ba209aee.ttf",
+    "static/media/Montserrat-Light.ttf": "/Portfolio/static/media/Montserrat-Light.dfb04f69b77b88e22558.ttf",
+    "static/media/img-top3.jpg": "/Portfolio/static/media/img-top3.c3fe32df5950dba4bbd5.jpg",
+    "static/media/logo-linkedin.png": "/Portfolio/static/media/logo-linkedin.962132e68d7a3383b31c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.eb03f92f.css.map": "/Portfolio/static/css/main.eb03f92f.css.map",
+    "main.03f34fd3.js.map": "/Portfolio/static/js/main.03f34fd3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.469b1228.css",
-    "static/js/main.499f0204.js"
+    "static/css/main.eb03f92f.css",
+    "static/js/main.03f34fd3.js"
   ]
 }
