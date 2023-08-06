@@ -2,12 +2,6 @@
     font-family: Montserrat;
 }
 
-.works-bloc {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-}
-
 .titre-work {
     width: 100%;
     font-size: 12pt;
@@ -28,7 +22,14 @@
         margin-bottom: 30px;
     }
 
-    .work-one, .work-two {
+    .works-bloc {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        width: 45%;
+    }
+
+    .work-img {
         width: 100%;
         height: 300px;
         object-fit: cover;
@@ -55,7 +56,14 @@
         margin-bottom: 30px;
     }
 
-    .work-one, .work-two {
+    .works-bloc {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        width: 45%;
+    }
+
+    .work-img {
         width: 100%;
         height: 300px;
         object-fit: cover;
@@ -80,7 +88,14 @@
         margin: 30px;
     }
 
-    .work-one, .work-two {
+    .works-bloc {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        width: 90%;
+    }
+
+    .work-img {
         width: 100%;
         height: 300px;
         object-fit: cover;
